@@ -145,6 +145,20 @@ php artisan serve
 ```
 
 The application will be accessible at `http://127.0.0.1:8000`.
+## Screenshots
+## Screenshots
+
+### Home Page
+![Home Page](https://github.com/user-attachments/assets/9a59d92d-9a8e-4713-bc61-9f44b44287a2)
+A clean and responsive landing page introducing GUM Gym Management System.
+
+### Gym Members Login Page
+![Gym Members Login Page](https://github.com/user-attachments/assets/e697a9bc-b9c2-429a-9226-cb5e2bce7cee)
+The login interface specifically for Gym Members, allowing them to access their assigned workout routines, diet plans, and progress tracking.
+
+### Admin Dashboard
+![Admin Dashboard](https://github.com/user-attachments/assets/90fa81e9-0839-43a7-8a1f-40afe44fbfa5)
+Dashboard view for Gym Members showing active members, subscriptions, and performance reports.
 
 ### Default Credentials
 
@@ -153,6 +167,8 @@ The `DatabaseSeeder` populates the database with the following accounts for test
 **Gym Owner (Admin)**
 *   Email: `gym@example.com`
 *   Password: `123456`
+
+
 
 **Trainer**
 *   Email: `trainer@example.com`
