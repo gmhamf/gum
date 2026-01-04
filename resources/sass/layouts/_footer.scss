@@ -1,0 +1,44 @@
+@use '../base/variables' as *;
+
+.site-footer {
+    background-color: $color-bg-secondary;
+    border-top: 1px solid $border-color;
+    padding: $spacing-8 0 $spacing-6;
+    margin-top: auto;
+
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 $spacing-3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: $spacing-6;
+    }
+
+    .footer-content {
+        text-align: center;
+    }
+
+    .footer-links {
+        display: flex;
+        gap: $spacing-4;
+        margin-bottom: $spacing-4;
+        justify-content: center;
+
+        a {
+            color: $color-text-secondary;
+            font-size: $font-size-sm;
+
+            &:hover {
+                color: $color-accent;
+            }
+        }
+    }
+
+    .copyright {
+        color: $color-text-tertiary;
+        font-size: $font-size-sm;
+    }
+}

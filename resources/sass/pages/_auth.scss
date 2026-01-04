@@ -1,0 +1,60 @@
+@use '../base/variables' as *;
+
+.auth-page {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: $spacing-4;
+    background: radial-gradient(circle at center, rgba($color-bg-secondary, 0.5) 0%, $color-bg-primary 100%);
+
+    .auth-card {
+        background: $color-bg-secondary;
+        border: 1px solid $border-color;
+        border-radius: $border-radius-md;
+        padding: $spacing-6;
+        width: 100%;
+        max-width: 400px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+
+        @media (max-width: 576px) {
+            padding: $spacing-4;
+        }
+
+        .auth-header {
+            text-align: center;
+            margin-bottom: $spacing-6;
+
+            i {
+                font-size: $font-size-2xl;
+                color: $color-accent;
+                margin-bottom: $spacing-3;
+                display: block;
+            }
+
+            h2 {
+                color: $color-text-primary;
+                font-size: $font-size-lg;
+                margin-bottom: $spacing-1;
+            }
+
+            p {
+                color: $color-text-tertiary;
+                font-size: $font-size-sm;
+            }
+        }
+    }
+}
+
+
+
+
+.auth-actions {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-3;
+}
+
+.btn-full {
+    width: 100%;
+}

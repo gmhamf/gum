@@ -1,0 +1,38 @@
+@use 'variables' as *;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: $line-height-headings;
+    font-weight: 700;
+    margin-bottom: $spacing-3;
+}
+
+h1 {
+    font-size: $font-size-2xl;
+    letter-spacing: -0.02em;
+}
+
+h2 {
+    font-size: $font-size-xl;
+    letter-spacing: -0.01em;
+}
+
+h3 {
+    font-size: $font-size-lg;
+}
+
+p {
+    margin-bottom: $spacing-3;
+    color: $color-text-secondary;
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, $color-accent, lighten($color-accent, 20%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

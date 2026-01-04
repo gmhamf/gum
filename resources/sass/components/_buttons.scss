@@ -1,0 +1,44 @@
+@use '../base/variables' as *;
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    font-size: $font-size-sm;
+    font-weight: 600;
+    line-height: 1;
+    border-radius: $border-radius-sm;
+    transition: $transition-base;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+
+    &-primary {
+        background-color: $color-accent;
+        color: $color-bg-primary;
+
+        &:hover {
+            background-color: $color-accent-hover;
+            transform: translateY(-1px);
+        }
+    }
+
+    &-outline {
+        border: 1px solid $border-color;
+        color: $color-text-primary;
+
+        &:hover {
+            border-color: $color-accent;
+            color: $color-accent;
+        }
+    }
+
+    &-ghost {
+        color: $color-text-secondary;
+
+        &:hover {
+            color: $color-text-primary;
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+    }
+}

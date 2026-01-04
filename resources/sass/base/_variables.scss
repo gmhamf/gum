@@ -1,0 +1,50 @@
+// Design Tokens
+
+// Color Palette
+$color-bg-primary: #0a0a0a;
+$color-bg-secondary: #141414;
+$color-bg-tertiary: #1f1f1f;
+
+$color-text-primary: #ffffff;
+$color-text-secondary: #a0a0a0;
+$color-text-tertiary: #666666;
+
+$color-accent: #D4AF37; // Gold
+$color-accent-hover: #F4D03F;
+$color-accent-dim: rgba(212, 175, 55, 0.1);
+
+$color-error: #ff4d4d;
+$color-success: #00cc66;
+
+// Typography
+$font-family-base: 'Tajawal', sans-serif;
+$font-size-root: 16px;
+$font-size-base: 1rem;
+$font-size-sm: 0.875rem;
+$font-size-lg: 1.25rem;
+$font-size-xl: 2rem;
+$font-size-2xl: 3rem;
+
+$line-height-base: 1.6;
+$line-height-headings: 1.2;
+
+// Spacing
+$spacing-1: 0.25rem;
+$spacing-2: 0.5rem;
+$spacing-3: 1rem;
+$spacing-4: 1.5rem;
+$spacing-5: 2rem;
+$spacing-6: 3rem;
+$spacing-8: 4rem;
+$spacing-12: 6rem;
+
+// Borders
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 16px;
+$border-radius-full: 9999px;
+
+$border-color: rgba(255, 255, 255, 0.1);
+
+// Transitions
+$transition-base: all 0.2s ease-in-out;
